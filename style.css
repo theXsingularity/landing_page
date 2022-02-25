@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    background: #1F2937; 
+  }
+  
+  /*flex-boxes*/
+  .top, .gallery, .quote, .action, .footer{
+    display: flex;
+  }
+  
+  .quote {
+    flex-direction: column;
+  }
+  
+  /*-----TOP-----*/
+  .top {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 25px;
+    background: #1F2937;
+    color: white;
+  }
+  /*top-header*/
+  .header div {
+    font-size: 10px;
+    flex: 1;
+  }
+  
+  .top .icon{
+    flex: 4;
+  }
+  
+  /*top-main*/
+  .main div {
+    flex: 1;
+  }
+  
+  .right {
+    background: rgb(73, 73, 73);
+  }
+  
+  /*-----GALLERY-----*/
+  .gallery {
+    background: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  img {
+    border: 3px solid #3882F6;
+    border-radius: 15%;
+    width: 100px;
+  }
+  
+  /*-----QUOTE-----*/
+  .quote {
+    padding-left: 150px;
+    padding-right: 150px;
+    background: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    min-height: 500px;
+    justify-content: center;
+  }
+  
+  
+  
+  .author {
+    text-align: right;
+    font-style: bold;
+  }
+  
+  /*call to action*/
+  
+  .action div{
+    flex: 1;
+    padding-left: 75px;
+    padding-right: 75px;
+    background: lightblue;
+  }
+  
+  .action {
+    border: 100px solid white;
+  }
+  
+  /*FOOTER*/
+  .footer {
+    padding-bottom: 3px;
+    background: #1F2937; 
+    color: white;
+    justify-content: center;
+  }
+  
