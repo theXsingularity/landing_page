@@ -40,6 +40,10 @@ body {
 
 }
 
+.main div{
+    flex: 1;
+}
+
 .left {
     padding-right: 100px;
     font-size: 28px;
@@ -52,13 +56,14 @@ body {
 }
 
 .right img {
-    max-height: 400px;
-    max-width: auto;
+    width: 100%;
+    max-height: auto;
 }
 
 /*---GALLERY---*/
 
 .gallery {
+    padding: 50px 150px;
     text-align: center;
 }
 
@@ -77,22 +82,47 @@ body {
   }
 
   /*---QUOTE---*/
-  .quote {
-      height: 300px;
-      padding: 50px;
-      background: grey;
+.quote {
+    display: flex, column;
+    padding: 75px 150px;
+    background: #E5E7EB;
+    font-size: 28px;
+}
+
+
+.author {
+    text-align: right;
+}
+
+/*---ACTION---*/
+
+.action {
+    display: flex;
+    background: lightblue;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 100px;
+    padding: 20px 50px;
+    border-radius: 10px; 
   }
 
-  .author {
-      text-align: right;
+.context {
+    padding-right:50px;
+}
+  .button {
+      padding: 10px;
   }
+
+
+
 /*---FOOTER---*/
 .footer {
     display: flex;
+    text-align: center;
 }
 
   .footer div{
     flex: 1;
-    background: #1F2937; 
+    background: #1F2937;
     color: white;
   }
