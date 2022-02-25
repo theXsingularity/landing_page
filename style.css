@@ -1,3 +1,7 @@
+
+* { 
+    font-family: 'Roboto Mono', monospace; }
+
 body {
     margin: 0px;
 }
@@ -6,8 +10,8 @@ body {
 /*header*/
 .header {
     display: flex;
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 100px;
+    padding-right: 100px;
     justify-content: space-between;
     background: #1F2937;
     color: white;
@@ -28,20 +32,18 @@ body {
     display: flex;
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     align-items: center;
     justify-content: center;
     background: #1F2937;
 
 }
 
-.main {
-    flex: 1;
-    height: 300px;
-}
-
 .left {
-    background: pink;
     padding-right: 100px;
+    font-size: 28px;
+    color: #f9faf8;
 }
 
 .right {
