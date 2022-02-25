@@ -1,95 +1,90 @@
 body {
     margin: 0px;
-    background: #1F2937; 
-  }
-  
-  /*flex-boxes*/
-  .top, .gallery, .quote, .action, .footer{
+}
+
+/*---TOP---*/
+/*header*/
+.header, .links {
     display: flex;
-  }
-  
-  .quote {
-    flex-direction: column;
-  }
-  
-  /*-----TOP-----*/
-  .top {
-    padding-left: 75px;
-    padding-right: 75px;
-    padding-bottom: 25px;
-    background: #1F2937;
+    height: 50px;
+    background: #1f2937;
     color: white;
-  }
-  /*top-header*/
-  .header div {
-    font-size: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header div {
     flex: 1;
-  }
-  
-  .top .icon{
+}
+
+.header .icon {
     flex: 4;
-  }
-  
-  /*top-main*/
-  .main div {
-    flex: 1;
-  }
-  
-  .right {
-    background: rgb(73, 73, 73);
-  }
-  
-  /*-----GALLERY-----*/
-  .gallery {
-    background: white;
-    padding-left: 150px;
-    padding-right: 150px;
-    justify-content: center;
+}
+
+.links div{
+    max-width: 100px;
+    min-width: 75px;
     text-align: center;
-  }
-  
-  img {
+}
+
+/*main*/
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: #1f2937;
+    color: white;
+    height: 300px;
+}
+
+.main div{
+    flex: 1;
+}
+
+.right {
+    background: grey;
+}
+
+
+/*---GALLERY---*/
+
+.gallery {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+}
+
+.images div {
+    flex: 1;
+}
+
+img {
     border: 3px solid #3882F6;
     border-radius: 15%;
     width: 100px;
   }
-  
-  /*-----QUOTE-----*/
+
+  /*---QUOTE---*/
   .quote {
-    padding-left: 150px;
-    padding-right: 150px;
-    background: #E5E7EB;
-    font-size: 36px;
-    font-style: italic;
-    min-height: 500px;
-    justify-content: center;
+      height: 300px;
+      padding: 50px;
+      background: grey;
   }
-  
-  
-  
+
   .author {
-    text-align: right;
-    font-style: bold;
+      text-align: right;
   }
-  
-  /*call to action*/
-  
-  .action div{
+/*---FOOTER---*/
+.footer {
+    display: flex;
+}
+
+  .footer div{
     flex: 1;
-    padding-left: 75px;
-    padding-right: 75px;
-    background: lightblue;
-  }
-  
-  .action {
-    border: 100px solid white;
-  }
-  
-  /*FOOTER*/
-  .footer {
-    padding-bottom: 3px;
     background: #1F2937; 
     color: white;
-    justify-content: center;
   }
-  
