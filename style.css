@@ -51,6 +51,10 @@ body {
     justify-content: center;
 }
 
+.right img {
+    max-height: 400px;
+    max-width: auto;
+}
 
 /*---GALLERY---*/
 
@@ -66,7 +70,7 @@ body {
     flex: 1;
 }
 
-img {
+.images img {
     border: 3px solid #3882F6;
     border-radius: 15%;
     width: 100px;
